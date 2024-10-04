@@ -120,7 +120,7 @@ const DemoProduct = (props) => {
                     <form onSubmit={sendEmail} id="demoProductForm">
                         <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                             <div className="flex">
-                                <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Demo our products</h1>
+                                <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Teste os nossos produtos</h1>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -130,7 +130,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
                                     value="business_management_system" onChange={handleChange}
                                  />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Business Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Sistema de Gestão Empresarial</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -140,7 +140,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="school_management_portal" onChange={handleChange}
                                     />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">School Management Portal</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Portal de Gestão Escolar</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -150,7 +150,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
                                     value="payroll_management_system" onChange={handleChange}
                                 />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Payroll Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Sistema de gerenciamento de folha de pagamento</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -160,7 +160,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="event_management_system" onChange={handleChange}
                                 />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Event Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Sistema de gerenciamento de eventos</label>
                             </div>
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>
@@ -243,7 +243,7 @@ const DemoProduct = (props) => {
                         <div className="my-2 w-1/2 lg:w-2/4">
                             <button type="submit" id="submitBtn" className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
                                     focus:outline-none focus:shadow-outline">
-                                Send Message
+                                Enviar Mensagem
                             </button>
                         </div>
                     </div>
@@ -255,8 +255,8 @@ const DemoProduct = (props) => {
                                     <i className="fas fa-map-marker-alt pt-2 pr-2" />
                                 </div>
                                 <div className="flex flex-col">
-                                    <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                    <h2 className="text-2xl">Endereço do escritório</h2>
+                                    <p className="text-gray-400">Rua ...</p>
                                 </div>
                             </div>
                             
@@ -266,12 +266,12 @@ const DemoProduct = (props) => {
                                 </div>
 
                                 <div className="flex flex-col">
-                                    <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: 08055384406</p>
+                                    <h2 className="text-2xl">Contate -nos</h2>
+                                    <p className="text-gray-400">Telefone: 08055384406</p>
                                 
                                     <div className='mt-5'>
-                                        <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                        <h2 className="text-2xl">Envie um Email</h2>
+                                        <p className="text-gray-400">email@ccc.ufcg.edu.br</p>
                                     </div>
                             
                                 </div>
