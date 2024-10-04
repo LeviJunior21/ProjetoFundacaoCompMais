@@ -266,7 +266,7 @@ const DemoProduct = (props) => {
                                 </div>
 
                                 <div className="flex flex-col">
-                                    <h2 className="text-2xl">Contate -nos</h2>
+                                    <h2 className="text-2xl">Contate-nos</h2>
                                     <p className="text-gray-400">Telefone: 08055384406</p>
                                 
                                     <div className='mt-5'>
