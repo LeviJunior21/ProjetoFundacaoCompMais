@@ -3,6 +3,7 @@ import img from '../images/web.svg';
 import img2 from '../images/app.svg';
 import img3 from '../images/hosting.svg';
 import img4 from '../images/consultation.svg';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
 
@@ -10,12 +11,12 @@ const Services = () => {
         <div id="services" className="bg-gray-100 py-12" >
             <section data-aos="zoom-in-down">
                     <div className="my-4 py-4">
-                        <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Serviços</h2>
+                        <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Destaques dos Programas</h2>
                         
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
                         </div>
-                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Estamos profundamente comprometidos com o crescimento e sucesso de nossos clientes.</h2>
+                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Apresentamos os programas principais da nossa empresa.</h2>
                     </div>
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
@@ -26,17 +27,28 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento Web</h2>
                                     <p className="text-md font-medium">
-
-                                    Somos especializados na criação e otimização de sites personalizados de alta qualidade para empresas e organizações de todos os tamanhos. Criação de sites e aplicativos compatíveis com dispositivos móveis e fáceis de usar para os clientes.                                    </p>
+                                    Somos especializados na criação de sites personalizados de alta qualidade para empresas e organizações, criando de sites e aplicativos compatíveis com dispositivos móveis.                                    </p>
+                                </div>
+                                <div className="flex justify-center my-4">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                        Agendar demonstração
+                                        <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                                    </Link>
                                 </div>
                             </div>
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento de Aplicações Mobile</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento de Apps Mobile</h2>
                                     <p className="text-md font-medium">
                                     Desenvolvemos aplicativos móveis multiplataforma personalizados e de alta qualidade que são robustos e otimizados para desempenho, escalabilidade e acessibilidade.                                    </p>
+                                </div>
+                                <div className="flex justify-center my-4">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                        Agendar demonstração
+                                        <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -47,6 +59,12 @@ const Services = () => {
                                     <p className="text-md font-medium">
                                     Fornecemos serviços de registro de domínio e hospedagem na web para indivíduos e organizações para permitir que ganhem visibilidade no espaço digital.                                    </p>
                                 </div>
+                                <div className="flex justify-center my-4">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                        Ver mais
+                                        <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                                    </Link>
+                                </div>
                             </div>
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -55,6 +73,12 @@ const Services = () => {
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Consultas de TI em geral</h2>
                                     <p className="text-md font-medium">
                                     Nosso serviço de consultoria de TI fornece orientação e suporte especializado para empresas e indivíduos que buscam otimizar suas soluções tecnológicas.                                    </p>
+                                </div>
+                                <div className="flex justify-center my-4">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                        Agendar demonstração
+                                        <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                                    </Link>
                                 </div>
                             </div>                    
                         </div>

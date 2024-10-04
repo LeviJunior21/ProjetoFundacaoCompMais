@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 const NavLinks = () => {
     return (
         <>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#about">
+            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/sobre">
                 Sobre
             </HashLink>
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
