@@ -10,13 +10,11 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
-
-import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import AboutUs from './pages/Sobre';
 import ProgramasProjetos from './pages/ProgramasProjetos';
 import Eventos from './pages/Eventos';
+import Doacao from './pages/Doacao';
 
 function App() {
   useEffect(() => {
@@ -33,8 +31,6 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
-
   return (
     <>
       <Router>
@@ -42,7 +38,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/doacao" element={<Doacao />} /> 
             <Route path='/sobre' element={<AboutUs />}/>
             <Route path='/programas_projetos' element={<ProgramasProjetos />}/>
             <Route path='/eventos' element={<Eventos/>} />
@@ -52,6 +48,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
