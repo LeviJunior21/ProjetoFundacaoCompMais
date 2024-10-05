@@ -21,62 +21,62 @@ const Services = () => {
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-                            
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            {/* Primeiro cartão */}
+                            <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento Web</h2>
                                     <p className="text-md font-medium">
                                     Somos especializados na criação de sites personalizados de alta qualidade para empresas e organizações, criando de sites e aplicativos compatíveis com dispositivos móveis.                                    </p>
                                 </div>
-                                <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
-                                        Agendar demonstração
+                                <div className="flex justify-center mt-auto">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                        Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
                                 </div>
                             </div>
-
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            {/* Segundo cartão */}
+                            <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento de Apps Mobile</h2>
                                     <p className="text-md font-medium">
                                     Desenvolvemos aplicativos móveis multiplataforma personalizados e de alta qualidade que são robustos e otimizados para desempenho, escalabilidade e acessibilidade.                                    </p>
                                 </div>
-                                <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
-                                        Agendar demonstração
+                                <div className="flex justify-center bt-auto">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                        Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
                                 </div>
                             </div>
-
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            {/* Terceiro cartão */}
+                            <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Domínio e Serviços de Hospedagem</h2>
                                     <p className="text-md font-medium">
                                     Fornecemos serviços de registro de domínio e hospedagem na web para indivíduos e organizações para permitir que ganhem visibilidade no espaço digital.                                    </p>
                                 </div>
-                                <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
+                                <div className="flex justify-center mt-auto">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
                                 </div>
                             </div>
-
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            {/* Quarto cartão */}
+                            <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Consultas de TI em geral</h2>
                                     <p className="text-md font-medium">
                                     Nosso serviço de consultoria de TI fornece orientação e suporte especializado para empresas e indivíduos que buscam otimizar suas soluções tecnológicas.                                    </p>
                                 </div>
-                                <div className="flex justify-center my-4">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
-                                        Agendar demonstração
+                                <div className="flex justify-center mt-auto">
+                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                        Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
                                 </div>

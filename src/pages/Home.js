@@ -16,7 +16,7 @@ const Home = () => {
             <Services />
             <Portfolio />
             <Clients />
-            <Cta/>
+            <Cta />
             <Footer />
         </>
 

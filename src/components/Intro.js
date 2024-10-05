@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../images/Web-developer.svg';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Intro = () => {
     return (
@@ -21,10 +21,10 @@ const Intro = () => {
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'> Além disso, como fundação de direito privado, a COMP+ está sujeita à supervisão do Ministério Público do Estado da Paraíba.</p>
                             </div>
-                            <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
-                                Contate-nos
+                            <HashLink smooth to="/sobre#about-us" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
+                                Saiba mais
                                 <svg className="w-4 h-4 ml-1 group-hover: translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                            </Link>
+                            </HashLink>
                         </div>
                     </div>
                 </div>
