@@ -14,7 +14,7 @@ const Footer = () => {
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">MLD</h3>
+                            <h3 className="font-bold text-4xl mb-4">COMP+</h3>
                             <div className='text-md font-medium text-gray-600'>
                                 <h5>Título</h5>
                                 <p>Subtitulo 1</p>
@@ -98,7 +98,7 @@ const Footer = () => {
                         to="#"
                         className=" hover:text-gray-900"
                     >
-                        Molad e Konsult
+                        Comp+
                     </HashLink>. Todos direitos reservados.
                     </div>
                 </div>
@@ -110,4 +110,5 @@ const Footer = () => {
         </>
     )
 }
+
 export default Footer;
