@@ -4,6 +4,7 @@ import img2 from '../images/app.svg';
 import img3 from '../images/hosting.svg';
 import img4 from '../images/consultation.svg';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Services = () => {
 
@@ -25,15 +26,15 @@ const Services = () => {
                             <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento Web</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Treinamento em Desenvolvimento Web</h2>
                                     <p className="text-md font-medium">
-                                    Somos especializados na criação de sites personalizados de alta qualidade para empresas e organizações, criando de sites e aplicativos compatíveis com dispositivos móveis.                                    </p>
+                                    Oferecemos um curso abrangente para o desenvolvimento de sites responsivos e aplicações web modernas.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                    </Link>
+                                    </HashLink>
                                 </div>
                             </div>
                             {/* Segundo cartão */}
@@ -42,43 +43,43 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento de Apps Mobile</h2>
                                     <p className="text-md font-medium">
-                                    Desenvolvemos aplicativos móveis multiplataforma personalizados e de alta qualidade que são robustos e otimizados para desempenho, escalabilidade e acessibilidade.                                    </p>
+                                    Aprenda a criar aplicativos móveis para plataformas iOS e Android com uma abordagem prática e atualizada.                                    </p>
                                 </div>
                                 <div className="flex justify-center bt-auto">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                    </Link>
+                                    </HashLink>
                                 </div>
                             </div>
                             {/* Terceiro cartão */}
                             <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Domínio e Serviços de Hospedagem</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Hackathons de Tecnologia e Mais</h2>
                                     <p className="text-md font-medium">
-                                    Fornecemos serviços de registro de domínio e hospedagem na web para indivíduos e organizações para permitir que ganhem visibilidade no espaço digital.                                    </p>
+                                    Participe de nosso hackathon e colabore com outros profissionais para desenvolver soluções tecnológicas inovadoras.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                    </Link>
+                                    </HashLink>
                                 </div>
                             </div>
                             {/* Quarto cartão */}
                             <div className="flex flex-col justify-between bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Consultas de TI em geral</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Inclusão Digital em Comunidades</h2>
                                     <p className="text-md font-medium">
-                                    Nosso serviço de consultoria de TI fornece orientação e suporte especializado para empresas e indivíduos que buscam otimizar suas soluções tecnológicas.                                    </p>
+                                    Promovemos a inclusão digital em comunidades carentes, capacitando-as com habilidades tecnológicas para o futuro.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                                    </Link>
+                                    </HashLink>
                                 </div>
                             </div>                    
                         </div>
@@ -96,7 +97,7 @@ const Services = () => {
                             font-bold">Nós <span className='font-black'>Construimos</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                Com mais de 10 anos de experiência em análise e design de software e um profundo conhecimento das últimas tendências e soluções de TI, fornecemos recomendações e estratégias personalizadas para ajudá-lo a melhorar suas operações, reduzir custos e aumentar a eficiência.                                </p>
+                                Com uma missão de promover a educação em tecnologia e a inclusão digital, a nossa fundação tem anos de experiência desenvolvendo soluções inovadoras para capacitar comunidades e profissionais. Fornecemos iniciativas estratégicas e recursos educacionais que ajudam a impulsionar o aprendizado, aumentar a participação e construir uma base sólida para o futuro da tecnologia.</p>
                             </div>
                         </div>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
@@ -105,7 +106,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">Nós <span className='font-black'>Colaboramos</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Podemos colaborar com sua equipe de tecnologia existente para dimensionar aplicativos de software existentes ou projetar aplicativos de software personalizados que atendam às suas necessidades diárias e simplifiquem vários processos.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Trabalhamos em parceria com educadores, instituições e comunidades para co-criar soluções educacionais que se alinham às necessidades locais. Desde o desenvolvimento de programas de inclusão digital até a criação de cursos personalizados, colaboramos para garantir que o conhecimento e as ferramentas tecnológicas sejam acessíveis e eficazes para todos.</p>
                             </div>
                         </div>
                     </div>

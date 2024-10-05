@@ -17,6 +17,7 @@ import ScrollToTop from './components/ScrollToTop';
 import AboutUs from './pages/Sobre';
 import ProgramasProjetos from './pages/ProgramasProjetos';
 import Eventos from './pages/Eventos';
+import Recursos from './pages/Recursos';
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,7 @@ function App() {
             <Route path='/sobre' element={<AboutUs />}/>
             <Route path='/programas_projetos' element={<ProgramasProjetos />}/>
             <Route path='/eventos' element={<Eventos/>} />
+            <Route path='/recursos' element={<Recursos/>} />
           </Routes>
         </ScrollToTop>
       </Router>

@@ -16,7 +16,7 @@ const NavLinks = () => {
             <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" to="/eventos">
                 Eventos
             </HashLink>
-            <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/recursos">
+            <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/recursos#recursos">
                 Recursos
             </HashLink>
             <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/parcerias">

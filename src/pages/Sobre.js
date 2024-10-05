@@ -12,7 +12,7 @@ const AboutUs = () => {
                 <NavBar />
             </div>
             <div id='about-us' className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
-                <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="fade-up">
+                <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="fade-down">
                     <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                         <div className="flex">
                             <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">
