@@ -13,13 +13,13 @@ const Intro = () => {
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">A COMP+ é uma fundação de apoio privada, sem fins lucrativos, regida pelo Código Civil Brasileiro e credenciada pelo MCTI e MEC.</h3>
+                            <h3 className="text-3xl  text-blue-900 font-bold">A COMP+ é uma fundação de apoio privada, sem fins lucrativos credenciada pelo MCTI e MEC.</h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>As atividades da COMP+ são regidas pela Lei da Inovação (Lei nº 10.973/2004), além de decretos e portarias interministeriais do MEC e MCTI.</p>
                             </div>
                             
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'> Além disso, como fundação de direito privado, a COMP+ está sujeita à supervisão do Ministério Público do Estado da Paraíba.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Como fundação de direito privado, a COMP+ é supervisionado pelo Ministério Público da Paraíba.</p>
                             </div>
                             <HashLink smooth to="/sobre#about-us" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Saiba mais

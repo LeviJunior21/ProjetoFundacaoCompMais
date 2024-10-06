@@ -25,7 +25,7 @@ const NavLinks = () => {
             <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/noticias">
                 Noticias/Blog
             </HashLink>
-            <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/contact#contact">
+            <HashLink className="px-1 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/contato#contato">
                 Contato
             </HashLink>
             <HashLink className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/doacao">

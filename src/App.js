@@ -7,9 +7,8 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-// All pages
 import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Contato from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import AboutUs from './pages/Sobre';
 import ProgramasProjetos from './pages/ProgramasProjetos';
@@ -37,7 +36,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contato" element={<Contato />} />
             <Route path="/doacao" element={<Doacao />} /> 
             <Route path='/sobre' element={<AboutUs />}/>
             <Route path='/programas_projetos' element={<ProgramasProjetos />}/>

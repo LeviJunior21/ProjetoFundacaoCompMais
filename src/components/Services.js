@@ -27,7 +27,8 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento Web</h2>
                                     <p className="text-md font-medium">
-                                    Somos especializados na criação de sites personalizados de alta qualidade para empresas e organizações, criando de sites e aplicativos compatíveis com dispositivos móveis.                                    </p>
+                                        Somos especializados na criação de sites personalizados de alta qualidade para empresas e organizações, criando de sites e aplicativos compatíveis com dispositivos móveis.
+                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
@@ -42,7 +43,8 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Desenvolvimento de Apps Mobile</h2>
                                     <p className="text-md font-medium">
-                                    Desenvolvemos aplicativos móveis multiplataforma personalizados e de alta qualidade que são robustos e otimizados para desempenho, escalabilidade e acessibilidade.                                    </p>
+                                        Desenvolvemos aplicativos móveis multiplataforma personalizados e de alta qualidade que são robustos e otimizados para desempenho, escalabilidade e acessibilidade.
+                                    </p>
                                 </div>
                                 <div className="flex justify-center bt-auto">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
@@ -57,7 +59,8 @@ const Services = () => {
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Domínio e Serviços de Hospedagem</h2>
                                     <p className="text-md font-medium">
-                                    Fornecemos serviços de registro de domínio e hospedagem na web para indivíduos e organizações para permitir que ganhem visibilidade no espaço digital.                                    </p>
+                                        Fornecemos serviços de registro de domínio e hospedagem na web para indivíduos e organizações para permitir que ganhem visibilidade no espaço digital.
+                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
@@ -72,7 +75,8 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Consultas de TI em geral</h2>
                                     <p className="text-md font-medium">
-                                    Nosso serviço de consultoria de TI fornece orientação e suporte especializado para empresas e indivíduos que buscam otimizar suas soluções tecnológicas.                                    </p>
+                                        Nosso serviço de consultoria de TI fornece orientação e suporte especializado para empresas e indivíduos que buscam otimizar suas soluções tecnológicas.
+                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
@@ -105,7 +109,9 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">Nós <span className='font-black'>Colaboramos</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Podemos colaborar com sua equipe de tecnologia existente para dimensionar aplicativos de software existentes ou projetar aplicativos de software personalizados que atendam às suas necessidades diárias e simplifiquem vários processos.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>
+                                    Com a Fundação Comp+ podemos colaborar com sua equipe de tecnologia existente para dimensionar aplicativos de software existentes ou projetar aplicativos de software personalizados que atendam às suas necessidades diárias e simplifiquem vários processos.
+                                </p>
                             </div>
                         </div>
                     </div>
