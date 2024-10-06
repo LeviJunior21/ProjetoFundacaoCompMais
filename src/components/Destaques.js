@@ -3,13 +3,12 @@ import img from '../images/web.svg';
 import img2 from '../images/app.svg';
 import img3 from '../images/hosting.svg';
 import img4 from '../images/consultation.svg';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-const Services = () => {
+const Destaques = () => {
 
     return (
-        <div id="services" className="bg-gray-100 py-12" >
+        <div id="destaques" className="bg-gray-100 py-12" >
             <section data-aos="zoom-in-down">
                     <div className="my-4 py-4">
                         <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Destaques dos Programas</h2>
@@ -31,7 +30,7 @@ const Services = () => {
                                     Oferecemos um curso abrangente para o desenvolvimento de sites responsivos e aplicações web modernas.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink smooth to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </HashLink>
@@ -46,7 +45,7 @@ const Services = () => {
                                     Aprenda a criar aplicativos móveis para plataformas iOS e Android com uma abordagem prática e atualizada.                                    </p>
                                 </div>
                                 <div className="flex justify-center bt-auto">
-                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink smooth to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </HashLink>
@@ -61,7 +60,7 @@ const Services = () => {
                                     Participe de nosso hackathon e colabore com outros profissionais para desenvolver soluções tecnológicas inovadoras.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink smooth to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </HashLink>
@@ -76,7 +75,7 @@ const Services = () => {
                                     Promovemos a inclusão digital em comunidades carentes, capacitando-as com habilidades tecnológicas para o futuro.                                    </p>
                                 </div>
                                 <div className="flex justify-center mt-auto">
-                                    <HashLink to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
+                                    <HashLink smooth to="/programas_projetos#programas" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 text-lg shadow-xl rounded-xl">
                                         Ver mais
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </HashLink>
@@ -97,7 +96,9 @@ const Services = () => {
                             font-bold">Nós <span className='font-black'>Construimos</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                Com uma missão de promover a educação em tecnologia e a inclusão digital, a nossa fundação tem anos de experiência desenvolvendo soluções inovadoras para capacitar comunidades e profissionais. Fornecemos iniciativas estratégicas e recursos educacionais que ajudam a impulsionar o aprendizado, aumentar a participação e construir uma base sólida para o futuro da tecnologia.</p>
+                                Com uma missão de promover a educação em tecnologia e a inclusão digital, a nossa fundação tem anos de experiência desenvolvendo soluções inovadoras para capacitar comunidades e profissionais. 
+                                Fornecemos iniciativas estratégicas e recursos educacionais que ajudam a impulsionar o aprendizado, aumentar a participação e construir uma base sólida.
+                                </p>
                             </div>
                         </div>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
@@ -106,7 +107,10 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">Nós <span className='font-black'>Colaboramos</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Trabalhamos em parceria com educadores, instituições e comunidades para co-criar soluções educacionais que se alinham às necessidades locais. Desde o desenvolvimento de programas de inclusão digital até a criação de cursos personalizados, colaboramos para garantir que o conhecimento e as ferramentas tecnológicas sejam acessíveis e eficazes para todos.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>
+                                Trabalhamos em parceria com educadores, instituições e comunidades para co-criar soluções educacionais que se alinham às necessidades locais. 
+                                Desde o desenvolvimento de programas de inclusão digital até a criação de cursos personalizados, colaboramos para garantir que o conhecimento e as ferramentas tecnológicas sejam acessíveis e eficazes para todos.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -116,4 +120,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Destaques;
