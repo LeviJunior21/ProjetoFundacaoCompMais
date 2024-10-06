@@ -6,7 +6,7 @@ import axios from 'axios';
 // import emailjs from 'emailjs-com';
 import Notiflix from 'notiflix';
 
-const Contact = () => {
+const Contato = () => {
     useDocTitle('Nos envie uma mensagem')
     const [name, setName] = useState('')
     const [subject, setSubject] = useState('')
@@ -80,7 +80,7 @@ const Contact = () => {
             <div>
                 <NavBar />
             </div>
-            <div id='contact' className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
+            <div id='contato' className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
                 <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="zoom-in">
 
                 <form onSubmit={sendEmail}>
@@ -231,4 +231,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Contato;
