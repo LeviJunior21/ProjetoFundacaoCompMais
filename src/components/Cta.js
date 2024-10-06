@@ -1,10 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+
 const Cta = () => {
-    return ( 
-        <div className="w-full flex items-center justify-center text-white cta">
-            <div className="mx-8 w-full h-96 text-center lg:text-left py-16 px-12 flex lg:justify-between items-center">                    
+    return (
+        <div className="w-full flex items-center justify-center text-white bg-blue-900 cta">
+            <div className="mx-8 w-full h-96 text-center lg:text-left py-16 px-12 flex lg:justify-between items-center">
                 <div className="w-full flex flex-col lg:flex-row lg:justify-around">
                     <div className="mb-4">
                         <p className='text-2xl md:text-4xl font-bold mb-4'>Você gostaria de falar com a Comp+?</p>
@@ -19,7 +19,7 @@ const Cta = () => {
                 </div>
             </div>
         </div>
-     );
+    );
 }
  
 export default Cta;
