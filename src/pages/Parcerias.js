@@ -34,7 +34,7 @@ const Parcerias = () => {
     <div key={parceiro.id} className="flex flex-col justify-between self-baseline bg-gray-100 p-5 rounded-lg shadow-lg h-full">
       <h3 className="text-2xl font-semibold text-blue-900 text-center">{parceiro.nome}</h3>
       <p className="text-gray-700 mt-4 mb-6 text-center">{parceiro.descricao}</p>
-      <img src={parceiro.image} className="h-[35%] w-[35%] m-auto"></img>
+      <img src={parceiro.image} className="h-[35%] w-[35%] m-auto" style={{'objectFit': 'contain'}}></img>
     </div>
   );
 
