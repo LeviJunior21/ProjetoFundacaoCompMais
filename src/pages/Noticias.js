@@ -99,7 +99,7 @@ const Noticias = () => {
                                     <div className="blog-post-details mt-2 mb-2 text-gray-400">
                                         Por {post.autor} em {post.data} | Categorias: {
                                             post.categorias.map( (cat, ind, array) =>
-                                                {if( ind == array.length - 1){
+                                                {if( ind === array.length - 1){
                                                     return(<><a href="#">{cat}</a></>)
                                                 }else{
                                                     return(<><a href="#">{cat}</a>, </>)

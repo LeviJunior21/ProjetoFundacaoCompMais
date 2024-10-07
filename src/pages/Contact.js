@@ -48,7 +48,7 @@ const Contato = () => {
         })
         .then(function (response) {
             document.getElementById('submitBtn').disabled = false;
-            document.getElementById('submitBtn').innerHTML = 'send message';
+            document.getElementById('submitBtn').innerHTML = 'enviar mensagem';
             clearInput()
             //handle success
             Notiflix.Report.success(
@@ -59,7 +59,7 @@ const Contato = () => {
         })
         .catch(function (error) {
             document.getElementById('submitBtn').disabled = false;
-            document.getElementById('submitBtn').innerHTML = 'send message';
+            document.getElementById('submitBtn').innerHTML = 'enviar mensagem';
             //handle error
             const { response } = error;
             if(response.status === 500) {

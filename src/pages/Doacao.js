@@ -64,7 +64,7 @@ const Doacao = (props) => {
                                 <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Doações corporativas</label>
                             </div>
                         <div className="" style={{'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'}}>
-                            <button type="submit" id="submitBtn" className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-blue-900 text-gray-100 p-3 rounded-lg w-300 focus:outline-none focus:shadow-outline">
+                            <button type="button" id="submitBtn" className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-blue-900 text-gray-100 p-3 rounded-lg w-300 focus:outline-none focus:shadow-outline">
                                 Fazer Doação
                             </button>
                         </div>
