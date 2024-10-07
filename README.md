@@ -11,3 +11,4 @@ Para utilizar:
 1. Clone o repositório para sua máquina local;
 2. Execute `npm install` para instalar todas as dependências necessárias;
 3. Execute `npm start` para visualizar o site localmente.
+4. Ou abra a nossa aplicacão Web através do URL [https://fundacaocompmais.web.app](https://fundacaocompmais.web.app)

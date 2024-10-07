@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2dd5c77c.css",
+    "main.js": "/static/js/main.1487bc02.js",
+    "static/media/feiratecnologica.png": "/static/media/feiratecnologica.7275f0e7638954f6ce23.png",
+    "static/media/campinagrande.jpg": "/static/media/campinagrande.68c43493404d72aaf03e.jpg",
+    "static/media/apis.jpg": "/static/media/apis.36509de2f1adf504e774.jpg",
+    "static/media/aniversario.png": "/static/media/aniversario.5a2071e1716909e33b76.png",
+    "static/media/google.jpg": "/static/media/google.f14d916802c6cb5a2de3.jpg",
+    "static/media/hackaton.png": "/static/media/hackaton.40e7f61908c2a48ae13e.png",
+    "static/media/datascience.jpg": "/static/media/datascience.ba73b4b916509e069238.jpg",
+    "static/media/kubernets.png": "/static/media/kubernets.84f9ec5561a967aca038.png",
+    "static/media/paqtcpb_logo.png": "/static/media/paqtcpb_logo.94761e6ea6a9ae22962d.png",
+    "static/media/CNPq_v2017_rgb.png": "/static/media/CNPq_v2017_rgb.6eac74753d97a3087967.png",
+    "static/media/confcomp.jpeg": "/static/media/confcomp.b7a5a4c50c7dba1100f1.jpeg",
+    "static/media/redeneural.png": "/static/media/redeneural.4a6011bce666cf37d068.png",
+    "static/media/Logo_SBC_Transparente.jpeg": "/static/media/Logo_SBC_Transparente.5b9268dffdddd810a40e.jpeg",
+    "static/media/web3.webp": "/static/media/web3.121e07b5bb59c5d9c9e4.webp",
+    "static/media/devops.png": "/static/media/devops.61b0636a9da61f209336.png",
+    "static/media/consultation.svg": "/static/media/consultation.ede9466b3634733f30c8d1a1b7bbe939.svg",
+    "static/media/react.png": "/static/media/react.7ca645337943741ca7af.png",
+    "static/media/lacina.png": "/static/media/lacina.6a5aa50781561188157b.png",
+    "static/media/web-dev.svg": "/static/media/web-dev.fd61237124f5b922e412437caf61ea58.svg",
+    "static/media/hosting.svg": "/static/media/hosting.b755d3eebb287dde8fcd287cb1d5653e.svg",
+    "static/media/congresso.webp": "/static/media/congresso.95ac9a5bcb54fb29067a.webp",
+    "static/media/app.svg": "/static/media/app.3d550d02d3409ad587451a91e97e78fb.svg",
+    "static/media/Web-developer.svg": "/static/media/Web-developer.6c7276fff94ccaae45617195f0ef27ae.svg",
+    "static/media/testesunitarios.avif": "/static/media/testesunitarios.884c8cc80a843cdb4dc0.avif",
+    "static/media/footer.svg": "/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "static/media/web.svg": "/static/media/web.bceccecdef8e71bd5a8d73effe14fdba.svg",
+    "index.html": "/index.html",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.2dd5c77c.css.map": "/static/css/main.2dd5c77c.css.map",
+    "main.1487bc02.js.map": "/static/js/main.1487bc02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dd5c77c.css",
+    "static/js/main.1487bc02.js"
+  ]
+}
