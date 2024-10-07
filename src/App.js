@@ -16,6 +16,7 @@ import Eventos from './pages/Eventos';
 import Recursos from './pages/Recursos';
 import Doacao from './pages/Doacao';
 import Noticias from './pages/Noticias';
+import Parcerias from './pages/Parcerias';
 
 function App() {
   useEffect(() => {
@@ -45,6 +46,7 @@ function App() {
             <Route path='/eventos' element={<Eventos/>} />
             <Route path='/recursos' element={<Recursos/>} />
             <Route path='/noticias' element={<Noticias/>} />
+            <Route path='/parcerias' element={<Parcerias/>} />
           </Routes>
         </ScrollToTop>
       </Router>
